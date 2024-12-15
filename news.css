@@ -1,0 +1,49 @@
+.brand-header {
+  grid-area: nav-header;
+  justify-self: center;
+}
+
+.nav-links {
+  grid-area: nav-links;
+}
+
+.brand {
+  font-family: cursive;
+}
+
+.story-5 {
+  grid-column: 2 / 4;
+}
+
+.story {
+  border: 2px solid black;
+}
+
+.article-title {
+  justify-self: center;
+  font-style: italic;
+  margin: 10px
+}
+
+.article-text {
+  margin: 10px
+}
+
+.article-img {
+  width: 250px;
+  height: 250px;
+}
+
+.story-2 {
+  justify-items: center;
+}
+
+.page {
+  display: grid;
+  grid-template-areas:
+    "nav-header nav-header nav-header"
+    "nav-links nav-links nav-links"
+    "story-1 story-2 story-3"
+    "story-4 double-story double-story";
+}
+
