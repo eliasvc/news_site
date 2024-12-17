@@ -32,10 +32,11 @@
 .article-img {
   width: 250px;
   height: 250px;
+  justify-self: center;
 }
 
 .story-2 {
-  justify-items: center;
+  display: grid;
 }
 
 .page {
