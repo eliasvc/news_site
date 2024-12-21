@@ -4,8 +4,9 @@
 }
 
 .brand {
-  font-family: "Snell Roundhand";
-  font-size: 50px;
+  font-family: "Imperial Script", serif;
+  font-style: normal;
+  font-size: 75px;
   font-weight: normal;
   margin-bottom: 0.1em;
 }
@@ -21,7 +22,7 @@
 
 .nav-links li {
   list-style-type: none;
-  font-family: "Futura";
+  font-family: "Jost", serif;
   font-size: x-large;
   font-weight: bold;
 }
